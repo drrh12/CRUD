@@ -1,0 +1,45 @@
+<div class="panel panel-default">
+	<div class="panel-heading">
+	  <p class="panel-title"><span style="color:#5bc0de;" class="glyphicon glyphicon-plus"> </span> Adicionar nova nota fiscal</p>
+	</div>
+	<div class="panel-body">
+		<form ng-submit="addEmployee()">
+    <div class="form-group">
+      <label for="notaFiscal">NF:</label>
+      <input type="text" class="form-control" id="notaFiscal" ng-model="employee.notaFiscal">
+    </div>
+    <div class="form-group">
+      <label for="conhecimentoFiscal">Nº/Conhecimento:</label>
+      <input type="text" class="form-control" id="conhecimentoFiscal" ng-model="employee.conhecimentoFiscal">
+    </div>
+    <div class="form-group">
+      <label for="dataEmissao">Data de Emissão:</label>
+      <input type="text" class="form-control" id="dataEmissao" ng-model="employee.dataEmissao">
+    </div>
+    <div class="form-group">
+      <label for="previsaoEntrega">Previsão de Entrega:</label>
+      <input type="text" class="form-control" id="previsaoEntrega" ng-model="employee.previsaoEntrega">
+      <div class="form-group">
+      <label for="origem">Origem:</label>
+      <input type="text" class="form-control" id="origem" ng-model="employee.origem">
+      <div class="form-group">
+      <label for="destino">Destino:</label>
+      <input type="text" class="form-control" id="destino" ng-model="employee.destino">
+      <label for="valorMercadoria">Valor da NF:</label>
+      <input type="text" class="form-control" id="valorMercadoria" ng-model="employee.valorMercadoria">
+      <label for="valorFrete">Valor do Frete:</label>
+      <input type="text" class="form-control" id="valorFrete" ng-model="emplyee.valorFrete">
+      <label for="volume">Volume:</label>
+      <input type="text" class="form-control" id="volume" ng-model="employee.volume">
+      <label for="peso">Peso:</label>
+      <input type="text" class="form-control" id="peso" ng-model="employee.peso">
+      <label for="ocorrencia">Ocorrência</label>
+      <input type="text" class="form-control" id="ocorrencia" ng-model="employee.ocorrencia">
+      <label for="status">Status:</label>
+      <input type="text" class="form-control" id="status" ng-model="employee.status">
+    </div>
+    <button type="submit" style="color:#5bc0de;" class="btn btn-default">Salvar</button>
+    <a href="#/employees" class="btn btn-default">Cancelar</a>
+</form>		
+    <div>
+<div>

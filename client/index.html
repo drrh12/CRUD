@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head >
+    <title>Econocargo</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Econocargo</title>
+
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+<link href="/css/datepicker3.css" rel="stylesheet">
+<link href="/css/styles.css" rel="stylesheet">
+
+<!--Icons-->
+<script src="/js/lumino.glyphs.js"></script>
+
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><span>ECONO</span>CARGO</a>
+        <ul class="user-menu">
+          <li class="dropdown pull-right">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg>Cliente<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg>Perfil</a></li>
+              <li><a href="#"><svg class="glyph stroked gear"><use xlink:href="#stroked-gear"></use></svg> Opções</a></li>
+              <li><a href="#"><svg class="glyph stroked cancel"><use xlink:href="#stroked-cancel"></use></svg> Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+              
+    </div><!-- /.container-fluid -->
+  </nav>
+    
+  <div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
+    <form role="search">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+    </form>
+    <ul class="nav menu">
+     
+      <li class="active"><a href="#"><svg class="glyph stroked calendar"><use xlink:href="#stroked-calendar"></use></svg>Coletas</a></li>
+     
+      <li><a href="#"><svg class="glyph stroked calendar"><use xlink:href="#stroked-calendar"></use></svg>Entregas</a></li>
+     
+      <li><a href="#"><svg class="glyph stroked line-graph"><use xlink:href="#stroked-line-graph"></use></svg>Cálculo de frete</a></li>
+    
+       
+        
+      <li role="presentation" class="divider"></li>
+      <li><a href="#"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> Login Page</a></li>
+    </ul>
+  </div><!--/.sidebar-->
+    
+  <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">     
+    <div class="row">
+      <ol class="breadcrumb">
+        <li><a href="http://www.econopost.com.br"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
+        <li class="active">Informações sobre NF</li>
+      </ol>
+    </div><!--/.row-->
+      
+
+      <div class="container">
+		<div class="row">
+		<div class="header clearfix">
+			<nav>
+			  <ul class="nav nav-pills pull-right">
+			    <li role="presentation" class="active"><a href="#/employees"><span class="glyphicon glyphicon-th-list"> </span> NF Ativas</a></li>
+			    <li role="presentation"><a href="#/employees/create"> 
+			    <span class="glyphicon glyphicon-plus"> </span>	Add nova NF</a></li>
+			  </ul>
+			</nav>
+			<h3 class="text-muted">FRETE NA CAVEIRA</h3>
+		</div>
+		<div ng-view></div>
+		
+		<footer class="footer well well-sm">
+		    <p>© 2017 Flávio</p>
+		</footer>
+
+	</div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="page-header"></h1>
+      </div>
+    </div><!--/.row-->
+    	
+                
+      </div><!--/.col-->
+    </div><!--/.row-->
+  </div>  <!--/.main-->
+
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/chart.min.js"></script>
+  <script src="js/chart-data.js"></script>
+  <script src="js/easypiechart.js"></script>
+  <script src="js/easypiechart-data.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.min.js"></script>
+<script src="app.js"></script>
+<script src="controllers/controllers.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="style.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</body>
+
+</html>
+</body>
+</html>
+
+
+

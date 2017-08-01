@@ -1,0 +1,35 @@
+<div class="panel panel-default" ng-init="showEmployee()">
+	<div class="panel-heading">
+	  <p class="panel-title">Informações sobre a NF</p>
+	</div>
+	<div class="panel-body">
+		<form>
+		<div class="form-group">
+		<div><img src="">"Colocar imagem de cada estado de acordo com o destino"</div>
+		 <label class="form-control">NF: {{ employee.notaFiscal }}</label>
+		 <label class="form-control">Nº/Conhecimento: {{ employee.conhecimentoFiscal }}</label>
+		 <label class="form-control">Emissão: {{ employee.dataEmissao }}</label>
+		 <label class="form-control">Previsão de Entrega: {{ employee.previsaoEntrega }}</label>
+		 <label class="form-control">Origem: {{ employee.origem }}</label>
+		 <label class="form-control">Destino: {{ employee.destino }}</label>
+		 <label class="form-control">Valor NF: {{ employee.valorMercadoria }}</label>
+		 <label class="form-control">Frete: {{ employee.valorFrete }}</label>
+		 <label class="form-control">Volume: {{ employee.volume }}</label>
+		 <label class="form-control">Peso: {{ employee.peso }}</label>
+		 <label class="form-control">Ocorrência: {{ employee.ocorrencia }}</label>
+		 <label class="form-control">Status: {{ employee.status }}</label>
+		 <label class="form-control">ID: {{ employee._id }}</label>
+		<a href="#/employees" class="btn btn-default"> Cancel</a>
+		</div>
+	</form>
+	<script type="text/javascript">
+		function mudaFoto(Estado){
+			if(Estado == ES){
+				alert('ES')
+			}else{
+				alert('Outro estado')
+			}
+		}
+	</script>		
+    <div>
+<div>
